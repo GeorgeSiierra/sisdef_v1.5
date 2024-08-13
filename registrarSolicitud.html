@@ -1,0 +1,53 @@
+<!-- ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═ 
+═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═
+═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═ 
+═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═ 
+═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═ 
+═  ═  ═  ═  ═  ═  ═  ═  ═  ═  ═
+═  ═  ═  ═  ═  ═  ═  ═ 
+═  ═  ═  ═  ═
+═  ═ 
+═ 
+
+HTML V1.5 DEL SISTEMA ESPECIALIZADO DE SOLICITUDES DEL DEPARTAMENTO DE EDUCACIÓN FÍSICA SISDEF 
+Hecho por: Jorge Sierra
+Fecha: 10/08/2024
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISDEF - Registrar Solicitudes</title>
+</head>
+<body style="background-color:white;">
+    
+    <div class="div-titulo">
+        <center>
+        <br><br><br>
+        <h1><u>REGISTRO DE SOLICITUDES</u></h1>
+        <h1>SIS-DEF</h1>
+        <h1><i>Sistema Especializado de Solicitudes del Departamento de Educación Física</i></h1>
+        <br><br>
+        <p><b>Ingresa tu información para
+        registrar una solicitud en la base de datos</b></p>
+        </center>
+    </div>
+    <div class="contenedor">
+         <center>  
+        <div class="div-formulario">
+            <form method="get" action="http://localhost:3000/registrar_solicitudes">
+                <input type="text" name="user_id" placeholder="Número de identificación"  required>
+                <input type="text" name="st_name" placeholder="Nombre del estudiante" required>
+                <input type="text" name="st_grade" placeholder="Curso del estudiante" required>
+                <input type="text" name="item" placeholder="Producto">
+                <input type="text" name="size1" placeholder="Talla">
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+         </center>  
+    </div>
+    <img src="/Logo_sisdef.png" alt="Logo del Sistema de Solicitudes del Departamento de Educación Física - SISDEF" align="right"/>
+</body>
+</html>
